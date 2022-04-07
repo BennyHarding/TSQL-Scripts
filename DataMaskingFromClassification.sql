@@ -1,7 +1,7 @@
 -- Sample script to create Data Masking rules based on classification information
--- NOT WORKING AND FULLY TESTED.
+-- WIP: NOT FULLY WORKING AND NOT FULLY TESTED.
 -- RECOMMEND TO RUN IN @debug = 1
--- Need to exclude columns that are used for distribution in SQLDW.
+-- Todo: Need to exclude columns that are used for distribution in SQLDW.
 
 IF OBJECT_ID('dbo.usp_create_defaultdynamicdatamasking_from_classification') IS NOT NULL
 	DROP PROCEDURE dbo.usp_create_defaultdynamicdatamasking_from_classification
